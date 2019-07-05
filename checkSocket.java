@@ -49,7 +49,7 @@ public class checkSocket {
 								reason = "port " + port + " on " + node + " is closed.";
 							};
 							if ( e instanceof UnknownHostException ) {
-								reason = "node " + node + " is unresolved.";
+								reason = "node " + node + " is not resolved, check DNS.";
 							}
 							if ( e instanceof SocketTimeoutException ) {
 								reason = "timeout while attempting to reach node " + node + " on port " + port;
