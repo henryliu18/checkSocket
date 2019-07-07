@@ -1,2 +1,5 @@
 www.google.com,80
 www.amazon.com,80
+oraserver-local,1521
+hrdb1.intra.corp.com,3306
+hrdb1.intra.corp.com,22
