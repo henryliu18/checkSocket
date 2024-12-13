@@ -1,4 +1,4 @@
-name: Simple Java Compile
+name: Simple Java Compile and Testing run
 
 on:
   push:
