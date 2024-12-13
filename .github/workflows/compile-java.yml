@@ -24,3 +24,7 @@ jobs:
 
       - name: Compile Java File
         run: javac checkSocket.java
+
+      - name: Run program
+        run: |
+          java checkSocket servers.csv
